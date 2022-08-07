@@ -1,4 +1,7 @@
 /* Informations */
+.information-section {
+  height: 640px;
+}
 
 .information-section > div {
   width: 50%;
@@ -8,12 +11,31 @@
   border-radius: 10px;
 }
 
+/* Experiences Section */
+
+.experiences-section {
+  height: 100%;
+}
+
 .experiences-section h1 {
   margin-left: 10px;
 }
 
+.experiences {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.experiences div {
+  flex: 1;
+}
+
 .experience {
   margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .experience a {
@@ -25,4 +47,41 @@
 
 .experience a:hover {
   color: dodgerblue;
+}
+
+/* Skills Section */
+
+.skills {
+  margin: 10px;
+}
+
+.skill-level {
+  height: 10px;
+  background-color: #232323;
+  border: 1px solid dodgerblue;
+  border-radius: 5px;
+}
+
+.skill-level-bar {
+  height: 10px;
+  background-color: dodgerblue;
+  border-radius: 3px;
+}
+
+.skill-level-bar.android {
+  width: 75%;
+}
+
+.skill-level-bar.ios {
+  width: 20%;
+}
+
+.skill-level-bar.html {
+  width: 40%;
+}
+.skill-level-bar.css {
+  width: 50%;
+}
+.skill-level-bar.js {
+  width: 30%;
 }

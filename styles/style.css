@@ -49,7 +49,15 @@ body {
 }
 
 .separator {
-  margin: 10px 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.separator-line {
+  margin: 0 10px;
   height: 2px;
   background-color: dodgerblue;
 }
