@@ -1,20 +1,17 @@
 /* Informations */
 .information-section {
-  height: 640px;
+  height: 660px;
+  display: flex;
 }
 
-.information-section > div {
-  width: 50%;
-  height: 100%;
-  margin: 5px;
+.section {
   background-color: #232323;
   border-radius: 10px;
+  margin: 0px 5px;
 }
 
-/* Experiences Section */
-
 .experiences-section {
-  height: 100%;
+  flex: 1;
 }
 
 .experiences-section h1 {
@@ -25,6 +22,8 @@
   height: 80%;
   display: flex;
   flex-direction: column;
+  margin: 10px;
+  justify-content: center;
 }
 
 .experiences div {
@@ -32,10 +31,7 @@
 }
 
 .experience {
-  margin: 10px;
-  display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .experience a {
@@ -49,8 +45,32 @@
   color: dodgerblue;
 }
 
+/* Education Section */
+
+.education-section {
+  flex: 1;
+}
+
+.education-section h1 {
+  margin-left: 10px;
+}
+
+.education {
+  margin: 10px;
+}
+
+.gpa {
+  font-size: 16px;
+  margin-left: 4px;
+  font-style: italic;
+  font-weight: 100;
+}
+
 /* Skills Section */
 
+.skills-section {
+  flex: 2;
+}
 .skills {
   margin: 10px;
 }
@@ -84,4 +104,45 @@
 }
 .skill-level-bar.js {
   width: 30%;
+}
+
+.skill-item {
+  padding-left: 10px;
+  font-size: 22px;
+}
+
+/* Projects Section */
+
+.projects-section {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.projects {
+  margin: 10px;
+}
+
+.project {
+  display: flex;
+}
+
+.project-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.project-description {
+  margin: auto;
+  margin-left: 20px;
+}
+
+.project-description h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.egg-timer:hover {
+  color: #2d5a55;
 }
