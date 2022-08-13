@@ -143,6 +143,14 @@
   padding: 0;
 }
 
+.links > a {
+  margin: 5px;
+}
+
 .egg-timer:hover {
+  color: #2d5a55;
+}
+
+.google-play-link:hover {
   color: #2d5a55;
 }
