@@ -125,6 +125,7 @@
 
 .project {
   display: flex;
+  margin-top: 10px;
 }
 
 .project-image {
